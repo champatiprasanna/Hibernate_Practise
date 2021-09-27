@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.Hibernate_Practice.UserLogin.pojo.UserLoginPojo" table = "userdetails">
+      
+      
+      <id name = "id" >
+         <generator class="assigned"/>
+      </id>
+ 
+      <property name = "name" />
+      <property name = "salary" />
+    <!--  <property name = "age" /> -->
+      
+  </class>
+  </hibernate-mapping>
+  
